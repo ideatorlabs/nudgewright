@@ -1,0 +1,8 @@
+{
+  "festivals": [
+    {"name": "New Year", "on": "2027-01-01", "emoji": "🎉"},
+    {"name": "Christmas", "on": "2026-12-25", "emoji": "🎄"},
+    {"name": "Halloween", "on": "2026-10-31", "emoji": "🎃"},
+    {"name": "Founders' Day", "on": "2026-12-28", "regions": ["Example Region"]}
+  ]
+}

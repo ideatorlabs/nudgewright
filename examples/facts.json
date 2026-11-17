@@ -1,0 +1,18 @@
+{
+  "business": {"name": "Demo Café", "sector": "cafe", "region": "Example Region"},
+  "goal": "winback",
+  "today": "2026-12-23",
+  "offer": {"text": "15% off", "ends_on": "2026-12-31"},
+  "festivals": [{"name": "Christmas", "on": "2026-12-25", "emoji": "🎄"}],
+  "events": [{"name": "Tasting night", "on": "2026-12-24"}],
+  "weather": {"rain_chance": 75, "temp_max": 19},
+  "switches": {"weather": "auto", "festival": "never"},
+  "customers": [
+    {"id": "cust-001", "first_name": "Asha"},
+    {"id": "cust-002", "first_name": "Ravi", "visits": 7, "rhythm": "overdue",
+     "bills": [["Smash Burger", "Cold Coffee"], ["Smash Burger"]], "categories": {"Burgers": 4}},
+    {"id": "cust-003", "first_name": "Noor", "visits": 3, "first_visit": "2025-12-26",
+     "loyalty": {"next_tier": "Gold", "points_to_next": 400, "tier_points": 500},
+     "private": {"phone": "+1 555 0177"}}
+  ]
+}
