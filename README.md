@@ -1,11 +1,13 @@
-<p align="center"><img src="https://raw.githubusercontent.com/ideatorlabs/.github/main/assets/avatar.png" width="72" alt="Ideator Labs"></p>
+<p align="center"><a href="https://ideatorlabs.github.io/nudgewright/"><img src="https://raw.githubusercontent.com/ideatorlabs/nudgewright/main/docs/assets/brand/banner.png" alt="Nudgewright: One honest, personal line, and the reasons why. By Ideator Labs." width="100%"></a></p>
 <h1 align="center">Nudgewright</h1>
 <p align="center"><b>One short, personal customer message line from facts you really have, and the reasons behind it.</b><br><sub>An open-source package by <a href="https://github.com/ideatorlabs">Ideator Labs</a></sub></p>
 <p align="center">
   <a href="https://github.com/ideatorlabs/nudgewright/actions/workflows/ci.yml"><img src="https://github.com/ideatorlabs/nudgewright/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+<a href="https://ideatorlabs.github.io/nudgewright/"><img src="https://img.shields.io/badge/docs-ideatorlabs.github.io%2Fnudgewright-8B5CF6.svg" alt="Documentation"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue.svg" alt="License: Apache-2.0"></a>
   <img src="https://img.shields.io/badge/python-3.10%2B-blue.svg" alt="Python 3.10+">
 </p>
+<p align="center"><b><a href="https://ideatorlabs.github.io/nudgewright/">Documentation</a></b> · <a href="https://ideatorlabs.github.io/nudgewright/#60-second-quickstart">Quickstart</a> · <a href="https://ideatorlabs.github.io/nudgewright/reference/">API reference</a> · <a href="CHANGELOG.md">Changelog</a></p>
 
 ## Why it exists
 

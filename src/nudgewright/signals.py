@@ -17,7 +17,7 @@ this week, a usual order, rain tomorrow. Every signal has a switch a business ca
 ``planned``
     In the catalogue so switches can be stored now; the composer ignores it for the moment.
 ``needs_data``
-    Needs an input the :class:`~nudgewright.facts.Context` does not model yet.
+    Needs an input the ``Context`` does not model yet.
 """
 
 from __future__ import annotations
@@ -237,7 +237,7 @@ GROUPS: tuple[str, ...] = tuple(dict.fromkeys(s.group for s in CATALOGUE))
 def resolve_switches(overrides: Mapping[str, str] | None = None) -> dict[str, str]:
     """Return ``{signal key: mode}`` for every signal: the business's choice, else the default.
 
-    Raises :class:`ValueError` for an unknown signal key or mode, so typos never pass silently.
+    Raises ``ValueError`` for an unknown signal key or mode, so typos never pass silently.
     """
     overrides = dict(overrides or {})
     bad = sorted(k for k, v in overrides.items() if k not in BY_KEY or v not in MODES)

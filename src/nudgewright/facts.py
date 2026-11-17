@@ -126,5 +126,5 @@ class Context:
 
     @property
     def the_offer(self) -> Offer | None:
-        """The offer as an :class:`Offer` (strings are converted on construction)."""
+        """The offer as an ``Offer`` (strings are converted on construction)."""
         return self.offer if isinstance(self.offer, Offer) else None

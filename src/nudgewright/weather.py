@@ -1,7 +1,7 @@
 """Optional forecast helper built on Open-Meteo (free, no API key).
 
 The composer never calls the network. If you want the ``weather`` signal, fetch tomorrow's forecast
-with :class:`WeatherClient` (or any source you like) and pass it as ``Context.weather``.
+with ``WeatherClient`` (or any source you like) and pass it as ``Context.weather``.
 
 The HTTP call is injectable: pass ``fetch=`` any callable ``(url, params) -> parsed JSON``. Results
 are kept in a small in-process LRU cache with a time-to-live. Every failure returns an empty result;
@@ -181,6 +181,6 @@ class WeatherClient:
         return self.cache.put(key, out, self.ttl)  # type: ignore[no-any-return]
 
     def tomorrow(self, city: str) -> Weather | None:
-        """Tomorrow's forecast as a :class:`~nudgewright.facts.Weather`, or None."""
+        """Tomorrow's forecast as a ``Weather``, or None."""
         days = self.forecast(city, days=2)
         return days[1].as_weather() if len(days) > 1 else None

@@ -1,10 +1,10 @@
 """Replaceable wording.
 
-All words the composer can write live in a :class:`Phrasebook`. To localise, build your own with
-:func:`dataclasses.replace` (or subclass) and pass it to :func:`~nudgewright.compose`.
+All words the composer can write live in a ``Phrasebook``. To localise, build your own with
+``dataclasses.replace`` (or subclass) and pass it to ``compose``.
 
-Templates use :meth:`str.format` fields. Each template may only use the fields listed in
-:data:`PLACEHOLDERS`; anything else is rejected when the phrasebook is created. That is how a custom
+Templates use ``str.format`` fields. Each template may only use the fields listed in
+``PLACEHOLDERS``; anything else is rejected when the phrasebook is created. That is how a custom
 phrasebook is kept away from customer data: the composer simply never hands it more than these
 fields.
 
